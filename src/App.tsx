@@ -1,5 +1,6 @@
 import './App.css'
 import CallbackHookUseCase from './components/CallbackHookUseCase'
+import FormSplitting from './components/FormSplitting/FormSplitting'
 import MemoizationUseCase from './components/MemoizationUseCase'
 import MemoizedComponentUseCase from './components/MemoizedComponentUseCase'
 import UserDetails from './components/UserDetails'
@@ -14,6 +15,7 @@ function App() {
       <MemoizationUseCase />
       <CallbackHookUseCase />
       <MemoizedComponentUseCase />
+      <FormSplitting />
     </div>
   )
 }
